@@ -171,12 +171,12 @@ img {
 nav {
   display: flex;
   flex-direction: column;
-  max-width: 800px;
   width: 100%;
   margin: 0 auto;
   border-bottom: groove black 2px;
   align-items: center;
   text-transform: uppercase;
+  margin-bottom: 30px;
 }
 nav div {
   padding: 20px;
@@ -224,4 +224,11 @@ nav a {
 .logo_outer {
   text-align: center;
   margin-top: 15px;
+}
+main {
+  text-align: center;
+  margin: 0 auto;
+}
+main p {
+  padding: 20px;
 }
