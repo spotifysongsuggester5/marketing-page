@@ -267,6 +267,9 @@ owners p {
   text-decoration: none;
   color: black;
 }
+li {
+  line-height: 35px;
+}
 a {
   text-decoration: none;
 }
