@@ -203,6 +203,7 @@ footer {
   margin: 0 auto;
   text-align: center;
   margin-top: 50px;
+  margin-bottom: 30px;
 }
 footer p {
   text-align: center;
@@ -263,6 +264,11 @@ card {
 card p,
 owners p {
   margin: 20px;
+  text-decoration: none;
+  color: black;
+}
+a {
+  text-decoration: none;
 }
 .fcard {
   margin-left: 20px;
