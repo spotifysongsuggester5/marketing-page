@@ -185,6 +185,16 @@ nav a {
   text-decoration: none;
   color: black;
 }
+@media (min-width: 767px) {
+  nav {
+    flex-direction: row;
+  }
+}
+@media (min-width: 999px) {
+  nav {
+    justify-content: flex-end;
+  }
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -231,4 +241,32 @@ main {
 }
 main p {
   padding: 20px;
+}
+about img {
+  width: 50px;
+}
+owners {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 767px) {
+  owners {
+    flex-direction: row;
+  }
+}
+h2,
+ul,
+card {
+  padding: 20px;
+}
+card,
+owners {
+  width: 300px;
+}
+card p,
+owners p {
+  margin: 20px;
+}
+.fcard {
+  margin-left: 20px;
 }
