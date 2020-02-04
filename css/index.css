@@ -1,3 +1,6 @@
+card img {
+  border: 1px solid black;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -248,20 +251,12 @@ about img {
 owners {
   display: flex;
   flex-direction: column;
-}
-@media (min-width: 767px) {
-  owners {
-    flex-direction: row;
-  }
+  text-align: center;
 }
 h2,
 ul,
 card {
   padding: 20px;
-}
-card,
-owners {
-  width: 300px;
 }
 card p,
 owners p {
@@ -269,4 +264,11 @@ owners p {
 }
 .fcard {
   margin-left: 20px;
+}
+ul {
+  font-size: 20px;
+}
+bios h2 {
+  text-align: center;
+  margin-bottom: 30px;
 }
