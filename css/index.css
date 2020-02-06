@@ -294,7 +294,7 @@ bios h2 {
 }
 .btn {
   background-color: #4CAF50;
-  border: none;
+  border: black 1px solid;
   color: #FFFFFF;
   padding: 15px 32px;
   text-align: center;
