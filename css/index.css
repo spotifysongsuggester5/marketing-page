@@ -1,3 +1,6 @@
+card img {
+  border: 1px solid black;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -185,14 +188,36 @@ nav a {
   text-decoration: none;
   color: black;
 }
-.footer {
-  width: 100%;
-  border-top: 2px dashed silver;
+@media (min-width: 767px) {
+  nav {
+    flex-direction: row;
+  }
 }
-.footer p {
+@media (min-width: 999px) {
+  nav {
+    justify-content: flex-end;
+  }
+}
+footer {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+footer p {
   text-align: center;
   font-size: 1.6rem;
   padding: 20px;
+}
+html,
+body {
+  height: 100% !important;
+}
+body {
+  background-image: repeating-linear-gradient(#9fb8ad, #1ED761, #9fb8ad);
+  background-size: 100%;
+  background-repeat: round;
 }
 .home header {
   border-bottom: groove black 2px;
@@ -231,4 +256,60 @@ main {
 }
 main p {
   padding: 20px;
+}
+about img {
+  width: 50px;
+}
+owners {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+h2,
+ul,
+card {
+  padding: 20px;
+}
+card p,
+owners p {
+  margin: 20px;
+  text-decoration: none;
+  color: black;
+}
+li {
+  line-height: 35px;
+}
+a {
+  text-decoration: none;
+}
+.fcard {
+  margin-left: 20px;
+}
+ul {
+  font-size: 20px;
+}
+bios h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.btn {
+  background-color: #4CAF50;
+  border: black 1px solid;
+  color: #FFFFFF;
+  padding: 15px 32px;
+  text-align: center;
+  -webkit-transition-duration: 1s;
+  transition-duration: 1s;
+  margin: 0 auto;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 80%;
+  border-radius: 25px;
+}
+.btn6:hover {
+  box-shadow: 0 0 0 5px white inset, 0 0 0 7.5px #4CAF50 inset, 0 0 0 10px white inset, 0 0 0 1px #4CAF50, 0 0 0 3px white, 0 0 0 5px #4CAF50;
+  background: none;
+  color: white;
+  border-radius: 10px;
 }

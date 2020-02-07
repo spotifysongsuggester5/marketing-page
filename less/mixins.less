@@ -1,1 +1,8 @@
 // Mixins in here
+.bordered(@color, @width) {
+  border: @width solid @color;
+}
+
+card img {
+  .bordered(black, 1px);  
+}
